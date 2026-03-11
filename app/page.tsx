@@ -1,6 +1,16 @@
 import { Mail, Twitter, Linkedin, Instagram } from "lucide-react"
+import articlesData from "@/public/data/articles.json"
+
+interface Article {
+  id: number
+  title: string
+  note: string
+  url: string
+}
 
 export default function Home() {
+  const articles: Article[] = (articlesData as Article[]).slice(0, 4)
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
@@ -80,7 +90,7 @@ export default function Home() {
           </div>
 
           {/* Section: One More Thing */}
-          <div>
+          <div className="mb-12">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-sm font-bold text-blue-600">📌</span>
               <h3 className="text-sm font-bold text-blue-600">ONE MORE THING &gt;</h3>
@@ -90,6 +100,32 @@ export default function Home() {
               <p className="text-muted-foreground">
                 A podcast episode that made me rethink productivity. Sometimes doing less is actually doing more.
               </p>
+            </div>
+          </div>
+
+          {/* Section: Interesting Reads */}
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-sm font-bold text-blue-600">📌</span>
+              <h3 className="text-sm font-bold text-blue-600">INTERESTING READS &gt;</h3>
+            </div>
+            <div className="space-y-6">
+              {articles.map((article) => (
+                <div key={article.id} className="flex items-start gap-3">
+                  <span className="text-muted-foreground mt-0.5">→</span>
+                  <div>
+                    <a
+                      href={article.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold hover:text-blue-600 transition-colors"
+                    >
+                      {article.title}
+                    </a>
+                    <p className="text-muted-foreground text-sm mt-1">{article.note}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

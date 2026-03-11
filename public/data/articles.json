@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "The Illustrated Guide to a PhD",
+    "note": "A beautifully simple visual explainer on what a PhD really means — and why it matters beyond academia.",
+    "url": "https://matt.might.net/articles/phd-school-in-pictures/"
+  },
+  {
+    "id": 2,
+    "title": "You and Your Research — Richard Hamming",
+    "note": "Hamming's famous 1986 talk on what separates good scientists from great ones. Timeless and brutally honest.",
+    "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+  },
+  {
+    "id": 3,
+    "title": "Maker's Schedule, Manager's Schedule",
+    "note": "Paul Graham's classic on why interruptions destroy deep work — and how to protect your best hours.",
+    "url": "http://paulgraham.com/makersschedule.html"
+  },
+  {
+    "id": 4,
+    "title": "The Bus Ticket Theory of Genius",
+    "note": "An unconventional take on what drives breakthrough ideas: obsessive, seemingly useless interest in a thing.",
+    "url": "http://paulgraham.com/genius.html"
+  },
+  {
+    "id": 5,
+    "title": "How to Do Great Work",
+    "note": "Paul Graham's most comprehensive essay on curiosity, taste, and the conditions that produce exceptional output.",
+    "url": "http://paulgraham.com/greatwork.html"
+  }
+]
