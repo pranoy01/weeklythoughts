@@ -10,34 +10,34 @@ function XLogo({ size = 20 }: { size?: number }) {
 
 // ─── Edit your weekly content here ───────────────────────────────────────────
 const week = {
-  number: 42,
-  date: "Mar 15, 2024",
+  number: 1,
+  date: "Mar 12, 2026",
 }
 
 const blocks = [
   {
-    title: "The Day Job",
+    title: "Is Fascism Back?",
     description:
-      "The Federal Reserve cut interest rates again, trying to keep the job market from turning ugly.",
-    media: "", // paste image/GIF URL here
+      "Johnny Harris digs into whether the global political shifts we're seeing today rhyme with the 1930s. Uncomfortable watch. Important one.",
+    media: "https://img.youtube.com/vi/GV8KGcFqeLc/maxresdefault.jpg",
   },
   {
-    title: "Change is the only constant",
+    title: "China Didn't Just Survive the War — It Planned For It",
     description:
-      "Why embracing uncertainty might be the most valuable skill you can develop right now.",
-    media: "", // paste image/GIF URL here
+      "The Israel-US strikes on Iran changed the oil game overnight. Iran controls the Strait of Hormuz — 20% of the world's oil passes through daily. But China saw this coming. They'd been quietly buying Iranian oil at massive discounts through a shadow fleet, building up strategic reserves for years. While the West scrambles with price spikes, China's sitting on a cushion they built specifically for this moment.",
+    media: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Y4bHFiMzVhOHV3MW9teTF4a2VmNHRyNHB5ZG8ycmZ5b2JtNW9ybiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohc172JJbbmUfVxhS/giphy.gif",
   },
   {
-    title: "Can Shaq Really Save Reebok?",
+    title: "Why Craigslist Still Makes $1 Billion a Year",
     description:
-      "A documentary deep dive into sneaker culture, brand identity, and what happens when celebrities bet on legacy.",
-    media: "", // paste image/GIF URL here
+      "It looks like a website from 2003 because it IS a website from 2003. No app, no algorithm, no VC money. Just Craig, a skeleton crew, and a refusal to optimize. Somehow still dominant. There's a lesson in here about moats that nobody talks about.",
+    media: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2ZuMnR6andhcWRqbHJocjBja21nY3Zobm42dHlpaWVwdHU2ZGw0YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y2ZUWLrTy63j9T6qrK/giphy.gif",
   },
   {
-    title: "Worth your time",
+    title: "One Font. Every Airport in the World.",
     description:
-      "A podcast episode that made me rethink productivity. Sometimes doing less is actually doing more.",
-    media: "", // paste image/GIF URL here
+      "One tiny Swiss company basically decided what every airport on the planet looks like. The typeface is called Frutiger — named after the designer. The story of how a single font became the universal language of 'you're lost' is genuinely fascinating.",
+    media: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG03MjRmMTY0MmRrMDExN2d2dnIxb2wxZjI0M3MzOXl4aTFjczBoZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/EgPtssGvQEau8prcBj/giphy.gif",
   },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
