@@ -26,7 +26,7 @@ const blocks = [
   {
     title: "The US didn't lose to China on oil. It handed them the win.",
     description:
-      "The obvious take is that China outsmarted everyone. The actual take is simpler. Twenty years of American energy policy flip flopping left the US exposed to exactly the kind of shock it helped create. China didn't do anything genius. It just watched the US trip over itself long enough to benefit from it. The Iran war didn't give China an energy advantage. America did.",
+      "The obvious take is that China outsmarted everyone. The actual take is simpler. Twenty years of American energy policy flip flopping left the US exposed to exactly the kind of shock it helped create. The Iran war didn't give China an energy advantage. America did.",
     media: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Y4bHFiMzVhOHV3MW9teTF4a2VmNHRyNHB5ZG8ycmZ5b2JtNW9ybiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohc172JJbbmUfVxhS/giphy.gif",
     link: "https://www.latitudemedia.com/news/the-iran-war-doesnt-give-china-an-energy-advantage-the-us-did/",
     linkLabel: "Read",
@@ -34,7 +34,7 @@ const blocks = [
   {
     title: "The man who said no to $11 billion",
     description:
-      "Craig Newmark built Craigslist, got offered $11 billion for it and turned it down. The site still looks exactly like it did in the early 2000s. No redesign, no algorithm, no growth team. Just Craig and a small crew who refused to optimise for money. In a world where every founder is sprinting toward an exit this interview is a genuinely strange watch.",
+      "Craig Newmark built Craigslist, got offered $11 billion and turned it down. The site still looks exactly like 2003. No redesign, no algorithm, no growth team. In a world where every founder is sprinting toward an exit, this interview is a genuinely strange watch.",
     media: "https://img.youtube.com/vi/dwsnJ7GywBY/maxresdefault.jpg",
     link: "https://youtu.be/dwsnJ7GywBY?si=TlAOM2EXfe4fLbXs",
     linkLabel: "Watch",
@@ -42,8 +42,8 @@ const blocks = [
   {
     title: "One guy designed a font for one airport and it took over the world",
     description:
-      "Adrian Frutiger was asked to design signage for Charles de Gaulle airport in Paris in the 70s. He made something so readable at a distance that airports everywhere just started copying it. Then hospitals. Then highways. It wasn't licensed or pushed by some big company. People just kept borrowing it because nothing else worked as well. The whole thing is a masterclass in what good design actually means.",
-    media: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmJ1eGQ5NWlyOWhsOXBtazc1eGRhdGZmaXVhNXRyOG16YWhoaG4waSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ji6zzUZwNIuLS/giphy.gif",
+      "Adrian Frutiger designed signage for Charles de Gaulle airport in the 70s. It was so readable from a distance that airports everywhere just started copying it. Nobody licensed it or pushed it. People just borrowed it because nothing else worked as well.",
+    media: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnZ5bnAzdTY1anYydmxqejRpNW8xdnJodzR2eTZzMXV2dnY0ZWJjYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oHw7byBFWxnpnU11ex/giphy.gif",
     link: "https://medium.com/@ps9058/frutiger-typeface-navigating-the-world-of-legible-design-d0fef05694cf",
     linkLabel: "Read",
   },
@@ -57,7 +57,7 @@ export default function App() {
       className="min-h-screen"
     >
       {/* Header */}
-      <header style={{ borderBottom: "1px solid #f0f0f0" }} className="py-16">
+      <header style={{ borderBottom: "1px solid #f0f0f0" }} className="pt-14 pb-8">
         <div className="max-w-2xl mx-auto px-6">
           <div
             style={{
@@ -87,13 +87,13 @@ export default function App() {
             Thoughts on<br />this week.
           </h1>
           <p style={{ marginTop: "1.25rem", fontSize: "1rem", lineHeight: 1.7, color: "#666" }}>
-            Hey 👋 Every week I share 4 things worth thinking about. No spam. Just the good stuff.
+            Hey 👋 Every week I share 4 things I read, watched or thought about this week. No spam. Just the good stuff.
           </p>
         </div>
       </header>
 
       {/* Blocks */}
-      <main className="max-w-2xl mx-auto px-6 py-14">
+      <main className="max-w-2xl mx-auto px-6 py-8">
         <div style={{ display: "flex", flexDirection: "column", gap: "1px", background: "#f0f0f0", border: "1px solid #f0f0f0", borderRadius: "16px", overflow: "hidden" }}>
           {blocks.map((block, i) => (
             <div key={i} style={{ background: "#fff", padding: "2rem" }}>
