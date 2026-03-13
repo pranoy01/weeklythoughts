@@ -24,25 +24,25 @@ const blocks = [
     linkLabel: "Watch",
   },
   {
-    title: "China Didn't Just Survive the War — It Planned For It",
+    title: "The US didn't lose to China on oil. It handed them the win.",
     description:
-      "The Israel-US strikes on Iran changed the oil game overnight. Iran controls the Strait of Hormuz — 20% of the world's oil passes through daily. But China saw this coming. They'd been quietly buying Iranian oil at massive discounts through a shadow fleet, building up strategic reserves for years. While the West scrambles with price spikes, China's sitting on a cushion they built specifically for this moment.",
+      "The obvious take is that China outsmarted everyone. The actual take is simpler. Twenty years of American energy policy flip flopping left the US exposed to exactly the kind of shock it helped create. China didn't do anything genius. It just watched the US trip over itself long enough to benefit from it. The Iran war didn't give China an energy advantage. America did.",
     media: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3Y4bHFiMzVhOHV3MW9teTF4a2VmNHRyNHB5ZG8ycmZ5b2JtNW9ybiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ohc172JJbbmUfVxhS/giphy.gif",
     link: "https://www.latitudemedia.com/news/the-iran-war-doesnt-give-china-an-energy-advantage-the-us-did/",
     linkLabel: "Read",
   },
   {
-    title: "Why Craigslist Still Makes $1 Billion a Year",
+    title: "The man who said no to $11 billion",
     description:
-      "It looks like a website from 2003 because it IS a website from 2003. No app, no algorithm, no VC money. Just Craig, a skeleton crew, and a refusal to optimize. Somehow still dominant. There's a lesson in here about moats that nobody talks about.",
+      "Craig Newmark built Craigslist, got offered $11 billion for it and turned it down. The site still looks exactly like it did in the early 2000s. No redesign, no algorithm, no growth team. Just Craig and a small crew who refused to optimise for money. In a world where every founder is sprinting toward an exit this interview is a genuinely strange watch.",
     media: "https://img.youtube.com/vi/dwsnJ7GywBY/maxresdefault.jpg",
     link: "https://youtu.be/dwsnJ7GywBY?si=TlAOM2EXfe4fLbXs",
     linkLabel: "Watch",
   },
   {
-    title: "One Font. Every Airport in the World.",
+    title: "One guy designed a font for one airport and it took over the world",
     description:
-      "One tiny Swiss company basically decided what every airport on the planet looks like. The typeface is called Frutiger — named after the designer. The story of how a single font became the universal language of 'you're lost' is genuinely fascinating.",
+      "Adrian Frutiger was asked to design signage for Charles de Gaulle airport in Paris in the 70s. He made something so readable at a distance that airports everywhere just started copying it. Then hospitals. Then highways. It wasn't licensed or pushed by some big company. People just kept borrowing it because nothing else worked as well. The whole thing is a masterclass in what good design actually means.",
     media: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmJ1eGQ5NWlyOWhsOXBtazc1eGRhdGZmaXVhNXRyOG16YWhoaG4waSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ji6zzUZwNIuLS/giphy.gif",
     link: "https://medium.com/@ps9058/frutiger-typeface-navigating-the-world-of-legible-design-d0fef05694cf",
     linkLabel: "Read",
